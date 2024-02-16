@@ -1,3 +1,32 @@
+/* Background Image Styles */
+body {
+  margin: 10;
+  padding: 0;
+  background-image: url('https://i.postimg.cc/xdJPfCpL/Beige-Crumpled-Paper-Phone-Wallpaper-1.png'); /* Replace 'your-background-image.jpg' with the path to your image */
+  background-size: contain; /* Cover the entire viewport */
+  background-position: center; /* Center the background image */
+  background-attachment: fixed; /* Fixed background scrolling */
+  font-size: 14px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Project Cards Container */
+.project-card-container {
+  display: flex;
+  /* justify-content: space-between; or any other value like space-around */
+  flex-wrap: wrap;
+  padding: 0px; /* Add padding to the container */
+  box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
 /* Project Cards */
 .project-card {
   background-color: #ffffff;
@@ -5,17 +34,26 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: transform 0.3s ease;
+  width: calc(30% - 20px); /* Adjust the width here */
+  margin: 20px auto; /* Adjust the margin for spacing between cards */
+  margin-left: 180px;
+  margin-right: 50px;
+  margin-top: 50px;
+  
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Stack child elements vertically */
+  justify-content: center; /* Center children vertically */
+  align-items: center; /* Center children horizontally */
 }
 
-.project-card:hover {
-  transform: translateY(-5px);
-}
+
 
 .project-card img {
-  width: 100%;
+  width: 100%; /* Adjust the width of the image */
   height: auto;
-  border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0; /* Rounded corners for the top */
 }
+
 
 .project-card .card-content {
   padding: 20px;
@@ -36,7 +74,7 @@
 
 .project-card .card-link {
   display: inline-block;
-  margin-top: 15px;
+  /* margin-top: 15px; */
   text-decoration: none;
   color: #ffffff;
   background-color: #007bff;
@@ -50,24 +88,3 @@
   background-color: #0056b3;
 }
 
-/* Media Queries */
-@media (min-width: 768px) {
-  .project-card {
-    width: calc(50% - 20px);
-    margin: 0 10px 20px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .project-card {
-    width: calc(33.33% - 20px);
-  }
-}
-
-@media (min-width: 768px) {
-  .project-card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-}

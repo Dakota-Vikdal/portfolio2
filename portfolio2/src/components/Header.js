@@ -1,7 +1,11 @@
 function Header() {
+
+
     return (
-        <header>
-            
+        <header className='header'>
+                <h1 >
+                    <span className='logo'>{'//'}</span> Emporium of Go(o)dies
+                </h1>
         </header>
     )
 }

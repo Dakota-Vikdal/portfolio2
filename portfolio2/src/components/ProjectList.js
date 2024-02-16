@@ -9,7 +9,7 @@ function ProjectList() {
     return (
         <section>
             <h2>Projects</h2>
-            <ul>
+            <ul className='project-card-container'>
                 {project}
             </ul>
         </section>
