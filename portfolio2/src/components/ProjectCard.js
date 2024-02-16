@@ -4,7 +4,7 @@ function ProjectCard({name, about, link, image}) {
     return (
         <li className='project-card'>
             <figure className='image'>
-                <img src={image} alt={`${name} image.`}/>
+                <img src={image} alt={`${name}`}/>
             </figure>
             <section className='card-content'>
                 <h4 className='card-title'>{name}</h4>
