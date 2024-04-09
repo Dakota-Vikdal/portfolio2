@@ -8,7 +8,6 @@ function ProjectList() {
 
     return (
         <section>
-            <h2>Projects</h2>
             <ul className='project-card-container'>
                 {project}
             </ul>

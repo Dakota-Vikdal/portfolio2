@@ -1,8 +1,12 @@
 /* Background Image Styles */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
 body {
-  margin: 10;
-  padding: 0;
-  background-image: url('https://i.postimg.cc/xdJPfCpL/Beige-Crumpled-Paper-Phone-Wallpaper-1.png'); /* Replace 'your-background-image.jpg' with the path to your image */
+  margin: 0;
+  font-family: "Raleway", serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to left, rgba(209, 220, 255, 0.596), rgba(133,126,233, 255));
   background-size: contain; /* Cover the entire viewport */
   background-position: center; /* Center the background image */
   background-attachment: fixed; /* Fixed background scrolling */
@@ -17,7 +21,6 @@ body {
 /* Project Cards Container */
 .project-card-container {
   display: flex;
-  /* justify-content: space-between; or any other value like space-around */
   flex-wrap: wrap;
   padding: 0px; /* Add padding to the container */
   box-sizing: border-box; /* Include padding in the width calculation */
@@ -74,7 +77,6 @@ body {
 
 .project-card .card-link {
   display: inline-block;
-  /* margin-top: 15px; */
   text-decoration: none;
   color: #ffffff;
   background-color: #007bff;

@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    justify-content: end;
+}
+
+.nav-links {
+    display: flex
+}
+
+.nav-links h2 a{
+    margin-right: 90px;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.nav-links h2 a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0; /* Start with zero width */
+    height: 4px; /* Adjust the thickness of the underline */
+    background-color: rgb(133,126,233);
+    transition: width 0.4s ease;
+}
+
+.nav-links h2 a:hover::after {
+    width: 100%; /* Expand width on hover */
+}
+
+.navbar h1 {
+    margin-right: 450px; /* Remove default margin */
+    color: rgba(255,255,255);
+}
