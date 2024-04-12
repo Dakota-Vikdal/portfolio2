@@ -1,4 +1,4 @@
-.navbar {
+/* .navbar {
     display: flex;
     justify-content: space-around;
     justify-content: end;
@@ -20,17 +20,17 @@
     position: absolute;
     bottom: -5px;
     left: 0;
-    width: 0; /* Start with zero width */
-    height: 4px; /* Adjust the thickness of the underline */
+    width: 0; 
+    height: 4px; 
     background-color: rgb(133,126,233);
     transition: width 0.4s ease;
 }
 
 .nav-links h2 a:hover::after {
-    width: 100%; /* Expand width on hover */
+    width: 100%; 
 }
 
 .navbar h1 {
-    margin-right: 450px; /* Remove default margin */
+    margin-right: 450px; 
     color: rgba(255,255,255);
-}
+} */

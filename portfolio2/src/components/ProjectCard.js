@@ -2,16 +2,21 @@ function ProjectCard({name, about, link, image}) {
 
     console.log(name, about, link, image)
     return (
-        <li className='project-card'>
-            <figure className='image'>
-                <img src={image} alt={`${name}`}/>
-            </figure>
-            <section className='card-content'>
-                <h4 className='card-title'>{name}</h4>
-                <p  className="card-description">{about}</p>
-                <a href={link} className="card-link">View Project</a>
-            </section>
-        </li>
+        <div className="col-md-4 mb-4">
+            <li className="card h-100 p-2 hover-shadow" style={{ width: '18rem'}}>
+            {/* // <li className='project-card'> */}
+                
+                <img src={image} alt={`${name}`} className='card-img-top'/>
+                
+                <section className="card-body d-flex flex-column">
+                    <h4 className='card-title'>{name}</h4>
+                    <p  className="card-text">{about}</p>
+                    <div className="mt-auto">
+                        <a href={link} className="btn btn-primary">View Project</a>
+                    </div>
+                </section>
+            </li>
+        </div>
     )
 }
 

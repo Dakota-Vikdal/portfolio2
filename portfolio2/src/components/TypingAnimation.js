@@ -3,11 +3,13 @@
 import React, { useState, useEffect } from 'react';
 import './TypingAnimation.css'; // Import CSS file for styling
 
-const TypingAnimation = () => {
+function TypingAnimation() {
     const linesToType = [
         "a Full-Stack Software Engineer.",
-        "an all around talented human.",
-        "check out my blogs."
+        "an all around talented guy.",
+        "you should check out my blogs.",
+        "lastly, have a nice day.",
+        "from the top!"
         // Add more lines of text as needed
       ];
 

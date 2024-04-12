@@ -8,9 +8,13 @@ function ProjectList() {
 
     return (
         <section>
-            <ul className='project-card-container'>
-                {project}
-            </ul>
+            <div className='container'>
+                <div className='row mt-5'>
+                    
+                        {project}
+                    
+                </div>
+            </div>
         </section>
     )
 }
