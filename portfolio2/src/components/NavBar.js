@@ -1,31 +1,40 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import './NavBar.css';
 
 function NavBar() {
+
+   
+
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg">
             <div className="container">
-                <Link className="navbar-brand" to="/">DV.</Link>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
+                <div className="row w-100">
+                    <div className="col-auto">
+                        <Link className="navbar-brand fs-4" to="/">DV.</Link>
+                    </div>
+                    <div className="col"></div>
+                    <div className="col-auto">
+                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span className="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </div>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul className="navbar-nav me-auto mb-2 grid gap-5">
                         <li className="nav-item">
-                            <Link className="nav-link" to="/">🏠 Home</Link>
+                            <Link className="nav-link fs-5" to="/">🏠 Home</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="https://medium.com/@dakota.james19">📜 Blogs</a>
+                            <a className="nav-link fs-5" href="https://medium.com/@dakota.james19">📜 Blogs</a>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/about">🙋‍♂️ About</Link>
+                            <Link className="nav-link fs-5" to="/about">🙋‍♂️ About</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/resume">📝 Resume</Link>
+                            <Link className="nav-link fs-5" to="/resume">📝 Resume</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/projectlist">💻 Projects</Link>
+                            <Link className="nav-link fs-5" to="/projectlist">💻 Projects</Link>
                         </li>
                     </ul>
                 </div>
@@ -35,6 +44,7 @@ function NavBar() {
 }
 
 export default NavBar;
+
 
 
 

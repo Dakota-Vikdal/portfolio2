@@ -3,6 +3,7 @@ import wave from '../assets/wave.gif';
 import home_image from '../assets/home_image.webp'
 
 
+
 function Home() {
     return (
         
