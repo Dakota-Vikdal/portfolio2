@@ -1,0 +1,4 @@
+.navbar.scrolled {
+    background-image: linear-gradient(to left, rgba(209, 220, 255, 0.596), rgba(133,126,233, 255));
+    backdrop-filter: blur(10px);
+  }

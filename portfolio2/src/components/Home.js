@@ -24,7 +24,7 @@ function Home() {
                     
                 </div>
                 <div className="home-image">
-                    <img src={home_image} alt='home image'style={{ width: '650px', height: 'auto' }}/>
+                    <img src={home_image} alt={`${home_image} logo`} style={{ width: '650px', height: 'auto' }}/>
                 </div>
                 
                 

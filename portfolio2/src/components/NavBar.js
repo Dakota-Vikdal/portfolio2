@@ -1,12 +1,28 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
+import './NavBar.css'
 
 function NavBar() {
+
+    const [isScrolled, setIsScrolled] = useState(false)
+
+    useEffect(() => {
+        function handleScroll() {
+            const scrollTop = window.scrollY;
+            setIsScrolled( scrollTop > 90);
+        }
+
+        window.addEventListener('scroll', handleScroll)
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll)
+        }
+    }, [])
 
    
 
     return (
-        <nav className="navbar navbar-expand-lg">
+        <nav className={`navbar navbar-expand-lg sticky-top ${isScrolled ? 'scrolled' : ''}`}>
             <div className="container">
                 <div className="row w-100">
                     <div className="col-auto">
@@ -20,7 +36,7 @@ function NavBar() {
                     </div>
                 </div>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav me-auto mb-2 grid gap-5">
+                    <ul className="navbar-nav me-auto grid gap-5">
                         <li className="nav-item">
                             <Link className="nav-link fs-5" to="/">🏠 Home</Link>
                         </li>

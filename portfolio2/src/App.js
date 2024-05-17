@@ -5,7 +5,6 @@ import About from './components/About'
 import Home from './components/Home'
 import CloudAnimation from './components/CloudAnimation'
 import Resume from './components/Resume'
-import Loading from './components/Loading'
 import React, {useState, useEffect} from 'react'
 
 function App() {
