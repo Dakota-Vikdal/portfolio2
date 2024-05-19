@@ -41,16 +41,16 @@ function NavBar() {
                             <Link className="nav-link fs-5" to="/">🏠 Home</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link fs-5" href="https://medium.com/@dakota.james19">📜 Blogs</a>
-                        </li>
-                        <li className="nav-item">
                             <Link className="nav-link fs-5" to="/about">🙋‍♂️ About</Link>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <Link className="nav-link fs-5" to="/resume">📝 Resume</Link>
-                        </li>
+                        </li> */}
                         <li className="nav-item">
                             <Link className="nav-link fs-5" to="/projectlist">💻 Projects</Link>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link fs-5" href="https://medium.com/@dakota.james19" target="_blank" rel="noreferrer">📜 Blogs</a>
                         </li>
                     </ul>
                 </div>

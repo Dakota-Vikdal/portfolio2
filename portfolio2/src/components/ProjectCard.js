@@ -12,7 +12,7 @@ function ProjectCard({name, about, link, image}) {
                     <h4 className='card-title'>{name}</h4>
                     <p  className="card-text">{about}</p>
                     <div className="mt-auto">
-                        <a href={link} className="btn btn-primary">View Project</a>
+                        <a href={link} target="_blank" rel="noreferrer" className="btn btn-primary">View Project</a>
                     </div>
                 </section>
             </li>

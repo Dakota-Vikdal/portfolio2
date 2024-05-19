@@ -76,18 +76,3 @@ function About() {
 }
 
 export default About
-
-
-
-{/* <p>Welcome to my portfolio. As you can tell this part of the journey is 'About me'. So, what about me?
-                        First off, my name is Dakota Vikdal. I am currently living in Vermont, but grew up in Alaska. 
-                        I am a Full-Stack Web Developer with a preference for Front-end Development. I graduated from Flatiron
-                        School with a deep yearning to learn more about my field and to become a highly skilled developer. I found that
-                        such a task should not be taken lightly and that this path is a long one, full of ups and downs. Over the past year and 
-                        a half I have learned a deep sense of perseverance, grit, and patience.
-
-                        Shifting from Massage to tech was tough but my skills have developed as time has passed. 
-
-                        A few loves of mine include physical fitness, videogames, cinema, family time, and eating.
-                        There are many more bits of life that I enjoy such as coding and taichi, but I'll leave it how it is.
-                    </p> */}
