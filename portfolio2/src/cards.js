@@ -1,6 +1,6 @@
 import image1 from './assets/cards/JS-image.png'
-import image2 from './assets/cards/python-logo.png'
-import image3 from './assets/cards/react-image.png'
+import image2 from './assets/cards/react-image.png'
+import image3 from './assets/cards/python-logo.png'
 import image4 from './assets/cards/flask-icon.png'
 import image5 from './assets/cards/bootstrap-logo.webp'
 // import image6 from './assets/cards/SQL.jpg'

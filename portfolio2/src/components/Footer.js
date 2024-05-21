@@ -4,7 +4,7 @@ import image3 from '../assets/footer/email-logo.png'
 
 function Footer() {
     return(
-        <div style={{textAlign: 'center', marginTop: 50, marginBottom: 30}}>
+        <div style={{textAlign: 'center', marginTop: 50, marginBottom: 10}}>
             <h1>Let's Connect!</h1>
                 <a className='footer' href='https://www.linkedin.com/in/dakota-vikdal/' target="_blank" rel="noreferrer"><img src={image1} alt='linkedin logo'style={{height: '40px', width:'40px'}}/></a>
                 <a className='footer' href='https://github.com/Dakota-Vikdal' target="_blank" rel="noreferrer"><img src={image2} alt='github logo'style={{height: '40px', width:'40px'}}/></a>

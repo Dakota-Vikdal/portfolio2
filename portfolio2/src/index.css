@@ -25,7 +25,7 @@ body {
   justify-content: space-between;
 }
 
-.home{
+/* .home{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -51,11 +51,23 @@ body {
 .animation{
   height: 50px;
   /* overflow: hidden; */
-}
-
-.home-image{
+  
+  .inside-gif {
+    margin-left: 20px;
+  }
+  
+  .animation {
+    height: 50px;
+  }
+  
+  .home-image {
+    width: 650px;
+    height: auto;
+    margin-top: -50px; /* Adjust this value as needed to move the image higher */
+  }
+/* .home-image{
  padding: 100px;
-}
+} */
 
 .hover-shadow {
   transition: transform 0.3s ease, backface-visibility 0s;; /* Add transition for box-shadow */
